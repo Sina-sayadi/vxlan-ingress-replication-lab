@@ -31,7 +31,11 @@ A complete Cisco VXLAN fabric using Ingress Replication as the BUM traffic repli
 - **vpc-1**, **vpc-2** , **vpc-3**
 
 ### How to Use
-1. Load the configuration files from the `CONFIGS/` folder on each device.
+1. Deploy the topology in EVE-NG.
+2. Apply the configuration files from the `CONFIGS/` directory.
+3. Verify OSPF neighbor adjacencies.
+4. Verify NVE peer status.
+5. Test end-to-end connectivity between hosts.
 
 ### Why Ingress Replication?
 
