@@ -1,6 +1,6 @@
 # VXLAN Ingress Replication Lab
 
-A complete Cisco VXLAN fabric using Ingress Replication as the BUM traffic replication method, without relying on multicast. The underlay is built with OSPF Area 0 and IP Unnumbered.
+A Cisco VXLAN lab implementing Ingress Replication as the BUM traffic forwarding mechanism, without relying on multicast.
 
 ### Features
 
