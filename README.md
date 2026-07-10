@@ -1,18 +1,21 @@
 # VXLAN Ingress Replication Lab
 
-A complete **VXLAN Ingress Replication** laboratory (without multicast) built on Cisco devices.
+A complete Cisco **VXLAN fabric using Ingress Replication as the BUM traffic replication method, without relying on multicast. The underlay is built with OSPF Area 0 and IP Unnumbered.
 
 ### Features
-- OSPF Area 0 in Underlay
+
+- Layer 2 VXLAN Overlay
+- Ingress Replication (Head-End Replication)
+- OSPF Area 0 Underlay
 - IP Unnumbered
 - Ethernet Virtual Circuit (EVC)
-- Bridge Domain Interface (BDI 10)
-- VTEPs on Leaf switches
-- L2/L3 VXLAN Overlay
+- Bridge Domain Interface (BDI)
+- Spine-Leaf Architecture
+- VTEP Configuration
 
 ### Topology
 
-![VXLAN Ingress Replication Topology](diagrams/vxlan-design-ingress-replication.png)
+![VXLAN Ingress Replication Topology](DIAGRAMS/vxlan-design-ingress-replication.png)
 
 ### Implemented Technologies
 - VXLAN with **Ingress Replication**
