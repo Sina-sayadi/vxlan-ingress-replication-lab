@@ -32,7 +32,9 @@ A complete Cisco **VXLAN fabric using Ingress Replication as the BUM traffic rep
 ### How to Use
 1. Load the configuration files from the `CONFIGS/` folder on each device.
 
+### Why Ingress Replication?
 
+This lab demonstrates VXLAN using Head-End (Ingress) Replication instead of multicast for BUM traffic forwarding. It is suitable for environments where multicast is unavailable or unnecessary.
 
 ---
 
