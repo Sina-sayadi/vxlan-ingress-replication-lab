@@ -26,9 +26,10 @@ A complete Cisco VXLAN fabric using Ingress Replication as the BUM traffic repli
 - MAC Learning Across VTEPs
 
 ### Devices
-- **Spine-1** & **Spine-2**
-- **Leaf-1**, **Leaf-2**, **Leaf-3** → VTEPs
-- **vpc-1**, **vpc-2** , **vpc-3**
+
+- 2 × Spine Switches
+- 3 × Leaf Switches (VTEPs)
+- 3 × VPCS Hosts
 
 ### How to Use
 1. Deploy the topology in EVE-NG.
