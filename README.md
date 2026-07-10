@@ -38,5 +38,8 @@ This lab demonstrates VXLAN using Head-End (Ingress) Replication instead of mult
 
 ---
 
-**Made by Sina Sayadi**  
-Network Engineering & SDN Lab
+## Author
+
+**Sina Sayadi**
+
+Network Engineer | Cisco | SDN | Network Automation
