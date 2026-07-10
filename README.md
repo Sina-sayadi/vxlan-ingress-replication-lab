@@ -15,7 +15,7 @@ A complete Cisco **VXLAN fabric using Ingress Replication as the BUM traffic rep
 
 ### Topology
 
-![VXLAN Ingress Replication Topology](DIAGRAMS/vxlan-design-ingress-replication.png)
+![VXLAN Ingress Replication Topology](diagrams/vxlan-design-ingress-replication.png)
 
 ### Implemented Technologies
 - VXLAN with **Ingress Replication**
