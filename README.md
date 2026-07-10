@@ -12,7 +12,7 @@ A complete **VXLAN Ingress Replication** laboratory (without multicast) built on
 
 ### Topology
 
-![VXLAN Ingress Replication Topology](DIAGRAMS/vxlan-design-ingress-replication.png)
+![VXLAN Ingress Replication Topology](diagrams/vxlan-design-ingress-replication.png)
 
 ### Implemented Technologies
 - VXLAN with **Ingress Replication**
