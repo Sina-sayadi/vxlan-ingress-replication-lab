@@ -64,7 +64,7 @@ VXLAN-Ingress-Replication-Lab
     ├── show_nve_peers.txt
     ├── show_bridge_domain.txt
     ├── show_vxlan.txt
-    └── ping_results.txt
+    └── ping_result.txt
 ```
 ---
 
