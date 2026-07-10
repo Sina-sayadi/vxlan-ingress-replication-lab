@@ -53,10 +53,10 @@ VXLAN-Ingress-Replication-Lab
 │   └── vxlan-design-ingress-replication.png
 │
 ├── configs/
-│   ├── Spine 1 show running config .txt
-│   ├── Spine 2 show running config .txt
-│   ├── Leaf 1 show running config .txt
-│   ├── Leaf 2 show runningconfig .txt
+│   ├── Spine 1 show running config.txt
+│   ├── Spine 2 show running config.txt
+│   ├── Leaf 1 show running config.txt
+│   ├── Leaf 2 show runningconfig.txt
 │   └── Leaf 3 show running config.txt
 │
 └── verification/
