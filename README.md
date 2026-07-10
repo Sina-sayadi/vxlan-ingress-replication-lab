@@ -53,11 +53,11 @@ VXLAN-Ingress-Replication-Lab
 │   └── vxlan-design-ingress-replication.png
 │
 ├── configs/
-│   ├── Spine-1.txt
-│   ├── Spine-2.txt
-│   ├── Leaf-1.txt
-│   ├── Leaf-2.txt
-│   └── Leaf-3.txt
+│   ├── Spine 1 show running config .txt
+│   ├── Spine 2 show running config .txt
+│   ├── Leaf 1 show running config .txt
+│   ├── Leaf 2 show runningconfig .txt
+│   └── Leaf 3 show running config.txt
 │
 └── verification/
     ├── show_ip_ospf_neighbor.txt
