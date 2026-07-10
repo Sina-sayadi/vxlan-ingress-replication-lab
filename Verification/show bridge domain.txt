@@ -1,0 +1,56 @@
+leaf-1#show bridge-domain 
+Bridge-domain 10 (3 ports in all)
+State: UP                    Mac learning: Enabled
+Aging-Timer: 300 second(s)
+Maximum address limit: 65536
+    BDI10  (up)
+    GigabitEthernet3 service instance 10
+    vni 10010
+   AED MAC address    Policy  Tag       Age  Pseudoport
+   0   001E.7AC4.79BF forward dynamic   276  nve10.VNI10010, VxLAN 
+                                             src: 172.16.2.1 dst: 172.16.2.2
+   -   001E.E6B7.BDBF to_bdi  static    0    BDI10
+   0   001E.E5CD.7FBF forward dynamic   277  nve10.VNI10010, VxLAN 
+                                             src: 172.16.2.1 dst: 172.16.2.3
+   0   0050.7966.6802 forward dynamic   290  nve10.VNI10010, VxLAN 
+                                             src: 172.16.2.1 dst: 172.16.2.3
+   0   0050.7966.6801 forward dynamic   297  nve10.VNI10010, VxLAN 
+                                             src: 172.16.2.1 dst: 172.16.2.2
+   0   0050.7966.6800 forward dynamic   297  GigabitEthernet3.EFP10
+
+
+leaf-2#show bridge-domain 
+Bridge-domain 10 (3 ports in all)
+State: UP                    Mac learning: Enabled
+Aging-Timer: 300 second(s)
+Maximum address limit: 65536
+    BDI10  (up)
+    GigabitEthernet3 service instance 10
+    vni 10010
+   AED MAC address    Policy  Tag       Age  Pseudoport
+   -   001E.7AC4.79BF to_bdi  static    0    BDI10
+   0   001E.E6B7.BDBF forward dynamic   299  nve10.VNI10010, VxLAN 
+                                             src: 172.16.2.2 dst: 172.16.2.1
+   0   001E.E5CD.7FBF forward dynamic   258  nve10.VNI10010, VxLAN 
+                                             src: 172.16.2.2 dst: 172.16.2.3
+   0   0050.7966.6801 forward dynamic   278  GigabitEthernet3.EFP10
+   0   0050.7966.6800 forward dynamic   278  nve10.VNI10010, VxLAN 
+                                             src: 172.16.2.2 dst: 172.16.2.1
+
+leaf-3#show bridge-domain 
+Bridge-domain 10 (3 ports in all)
+State: UP                    Mac learning: Enabled
+Aging-Timer: 300 second(s)
+Maximum address limit: 65536
+    BDI10  (up)
+    GigabitEthernet3 service instance 10
+    vni 10010
+   AED MAC address    Policy  Tag       Age  Pseudoport
+   0   001E.7AC4.79BF forward dynamic   298  nve10.VNI10010, VxLAN 
+                                             src: 172.16.2.3 dst: 172.16.2.2
+   0   001E.E6B7.BDBF forward dynamic   292  nve10.VNI10010, VxLAN 
+                                             src: 172.16.2.3 dst: 172.16.2.1
+   -   001E.E5CD.7FBF to_bdi  static    0    BDI10
+   0   0050.7966.6802 forward dynamic   255  GigabitEthernet3.EFP10
+   0   0050.7966.6800 forward dynamic   258  nve10.VNI10010, VxLAN 
+                                             src: 172.16.2.3 dst: 172.16.2.1

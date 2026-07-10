@@ -1,0 +1,17 @@
+leaf-1#show nve peers 
+Interface  VNI      Type Peer-IP          RMAC/Num_RTs   eVNI     state flags UP time
+nve10      10010    L2DP 172.16.2.2           ----       -          --   -/-
+nve10      10010    L2DP 172.16.2.3           ----       -          --   -/-
+
+
+leaf-2#show nve peers 
+Interface  VNI      Type Peer-IP          RMAC/Num_RTs   eVNI     state flags UP time
+nve10      10010    L2DP 172.16.2.1           ----       -          --   -/-
+nve10      10010    L2DP 172.16.2.3           ----       -          --   -/-
+
+
+leaf-3#sho nve peers 
+Interface  VNI      Type Peer-IP          RMAC/Num_RTs   eVNI     state flags UP time
+nve10      10010    L2DP 172.16.2.1           ----       -          --   -/-
+nve10      10010    L2DP 172.16.2.2           ----       -          --   -/-
+
