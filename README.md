@@ -42,6 +42,30 @@ A Cisco VXLAN lab implementing Ingress Replication as the BUM traffic forwarding
 
 This lab demonstrates VXLAN using Head-End (Ingress) Replication instead of multicast for BUM traffic forwarding. It is suitable for environments where multicast is unavailable or unnecessary.
 
+### Project Structure
+```
+VXLAN-Ingress-Replication-Lab
+│
+├── README.md
+├── LICENSE
+│
+├── diagrams/
+│   └── vxlan-design-ingress-replication.png
+│
+├── configs/
+│   ├── Spine-1.txt
+│   ├── Spine-2.txt
+│   ├── Leaf-1.txt
+│   ├── Leaf-2.txt
+│   └── Leaf-3.txt
+│
+└── verification/
+    ├── show_ip_ospf_neighbor.txt
+    ├── show_nve_peers.txt
+    ├── show_bridge_domain.txt
+    ├── show_vxlan.txt
+    └── ping_results.txt
+```
 ---
 
 ## Author
