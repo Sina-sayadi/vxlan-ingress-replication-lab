@@ -17,12 +17,13 @@ A complete Cisco VXLAN fabric using Ingress Replication as the BUM traffic repli
 
 ![VXLAN Ingress Replication Topology](diagrams/vxlan-design-ingress-replication.png)
 
-### Implemented Technologies
-- VXLAN with **Ingress Replication**
-- OSPF Area 0 with IP Unnumbered
-- EVC + BDI
-- VTEP Configuration
-- Spine-Leaf Architecture
+### Verification
+
+- OSPF Neighbor Adjacency
+- VXLAN Tunnel Establishment
+- NVE Peer Verification
+- End-to-End Host Connectivity
+- MAC Learning Across VTEPs
 
 ### Devices
 - **Spine-1** & **Spine-2**
