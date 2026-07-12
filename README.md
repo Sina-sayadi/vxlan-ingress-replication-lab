@@ -73,3 +73,9 @@ VXLAN-Ingress-Replication-Lab
 **Sina Sayadi**
 
 Network Engineer | Cisco | SDN | Network Automation
+
+![Cisco](https://img.shields.io/badge/Cisco-VXLAN-blue)
+![OSPF](https://img.shields.io/badge/OSPF-Area0-green)
+![Ingress Replication](https://img.shields.io/badge/VXLAN-Ingress_Replication-orange)
+![EVC](https://img.shields.io/badge/EVC-Bridge_Domain-purple)
+![License](https://img.shields.io/badge/License-MIT-yellow)
