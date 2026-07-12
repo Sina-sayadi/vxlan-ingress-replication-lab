@@ -66,6 +66,16 @@ VXLAN-Ingress-Replication-Lab
     ├── show_vxlan.txt
     └── ping_result.txt
 ```
+
+## Related Lab
+
+This repository focuses on VXLAN using Ingress Replication.
+
+For the multicast-based implementation of VXLAN, see:
+
+- **VXLAN PIM Sparse Mode Lab**  
+  https://github.com/Sina-sayadi/vxlan-pim-sparse-mode-lab
+
 ---
 
 ## Author
